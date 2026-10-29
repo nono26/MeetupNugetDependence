@@ -1,0 +1,2901 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:8df443fd-9451-42a9-9a1c-eec75ea30a30",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-29T16:17:48Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "grype",
+          "version": "0.121.0"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:nuget/AutoMapper@13.0.1?package-id=pkg%3Anuget%2FAutoMapper%4013.0.1",
+      "type": "library",
+      "name": "AutoMapper",
+      "version": "13.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/AutoMapper@13.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Azure.Core@1.36.0?package-id=pkg%3Anuget%2FAzure.Core%401.36.0",
+      "type": "library",
+      "name": "Azure.Core",
+      "version": "1.36.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Azure.Core@1.36.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Azure.Identity@1.7.0?package-id=pkg%3Anuget%2FAzure.Identity%401.7.0",
+      "type": "library",
+      "name": "Azure.Identity",
+      "version": "1.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Azure.Identity@1.7.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Azure.Storage.Blobs@12.19.1?package-id=pkg%3Anuget%2FAzure.Storage.Blobs%4012.19.1",
+      "type": "library",
+      "name": "Azure.Storage.Blobs",
+      "version": "12.19.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Azure.Storage.Blobs@12.19.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Azure.Storage.Common@12.18.1?package-id=pkg%3Anuget%2FAzure.Storage.Common%4012.18.1",
+      "type": "library",
+      "name": "Azure.Storage.Common",
+      "version": "12.18.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Azure.Storage.Common@12.18.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MediatR@12.2.0?package-id=pkg%3Anuget%2FMediatR%4012.2.0",
+      "type": "library",
+      "name": "MediatR",
+      "version": "12.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/MediatR@12.2.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MediatR.Contracts@2.0.1?package-id=pkg%3Anuget%2FMediatR.Contracts%402.0.1",
+      "type": "library",
+      "name": "MediatR.Contracts",
+      "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/MediatR.Contracts@2.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.Authentication.JwtBearer@8.0.6?package-id=pkg%3Anuget%2FMicrosoft.AspNetCore.Authentication.JwtBearer%408.0.6",
+      "type": "library",
+      "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "version": "8.0.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.Authentication.JwtBearer@8.0.6",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.OpenApi@8.0.0-preview.4.23260.4?package-id=pkg%3Anuget%2FMicrosoft.AspNetCore.OpenApi%408.0.0-preview.4.23260.4",
+      "type": "library",
+      "name": "Microsoft.AspNetCore.OpenApi",
+      "version": "8.0.0-preview.4.23260.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.OpenApi@8.0.0-preview.4.23260.4",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1?package-id=pkg%3Anuget%2FMicrosoft.Bcl.AsyncInterfaces%401.1.1",
+      "type": "library",
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0?package-id=pkg%3Anuget%2FMicrosoft.Bcl.AsyncInterfaces%406.0.0",
+      "type": "library",
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Data.SqlClient@5.1.1?package-id=pkg%3Anuget%2FMicrosoft.Data.SqlClient%405.1.1",
+      "type": "library",
+      "name": "Microsoft.Data.SqlClient",
+      "version": "5.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Data.SqlClient@5.1.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.0?package-id=pkg%3Anuget%2FMicrosoft.Data.SqlClient.SNI.runtime%405.1.0",
+      "type": "library",
+      "name": "Microsoft.Data.SqlClient.SNI.runtime",
+      "version": "5.1.0",
+      "purl": "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore%408.0.1",
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore",
+      "version": "8.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Abstractions%408.0.1",
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Abstractions",
+      "version": "8.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Analyzers%408.0.1",
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Analyzers",
+      "version": "8.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Relational%408.0.1",
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Relational",
+      "version": "8.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.SqlServer%408.0.1",
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.SqlServer",
+      "version": "8.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5?package-id=pkg%3Anuget%2FMicrosoft.Extensions.ApiDescription.Server%406.0.5",
+      "type": "library",
+      "name": "Microsoft.Extensions.ApiDescription.Server",
+      "version": "6.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Caching.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Memory%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Caching.Memory",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Binder%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Configuration.Binder",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyModel@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyModel%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyModel",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyModel@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Diagnostics.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.FileProviders.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Hosting.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging.Abstractions%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Options",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Options@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.2?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.2",
+      "type": "library",
+      "name": "Microsoft.Extensions.Options",
+      "version": "8.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Options@8.0.2",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0",
+      "type": "library",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client@4.47.2?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client%404.47.2",
+      "type": "library",
+      "name": "Microsoft.Identity.Client",
+      "version": "4.47.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Identity.Client@4.47.2",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@2.19.3?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client.Extensions.Msal%402.19.3",
+      "type": "library",
+      "name": "Microsoft.Identity.Client.Extensions.Msal",
+      "version": "2.19.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@2.19.3",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Abstractions%406.24.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Abstractions",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Abstractions%407.6.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Abstractions",
+      "version": "7.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Abstractions@7.6.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%406.24.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%407.6.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "version": "7.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@7.6.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Logging@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%406.24.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Logging",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Logging@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Logging@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%407.6.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Logging",
+      "version": "7.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Logging@7.6.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols%406.24.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Protocols",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@7.1.2?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols%407.1.2",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Protocols",
+      "version": "7.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols@7.1.2",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols.OpenIdConnect%406.24.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@7.1.2?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols.OpenIdConnect%407.1.2",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "version": "7.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@7.1.2",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%406.24.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Tokens",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%407.6.0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Tokens",
+      "version": "7.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Tokens@7.6.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.OpenApi@1.4.3?package-id=pkg%3Anuget%2FMicrosoft.OpenApi%401.4.3",
+      "type": "library",
+      "name": "Microsoft.OpenApi",
+      "version": "1.4.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.OpenApi@1.4.3",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.SqlServer.Server@1.0.0?package-id=pkg%3Anuget%2FMicrosoft.SqlServer.Server%401.0.0",
+      "type": "library",
+      "name": "Microsoft.SqlServer.Server",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.SqlServer.Server@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0?package-id=pkg%3Anuget%2FMicrosoft.Win32.SystemEvents%406.0.0",
+      "type": "library",
+      "name": "Microsoft.Win32.SystemEvents",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@9.0.1?package-id=pkg%3Anuget%2FNewtonsoft.Json%409.0.1",
+      "type": "library",
+      "name": "Newtonsoft.Json",
+      "version": "9.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://raw.github.com/JamesNK/Newtonsoft.Json/master/LICENSE.md"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Newtonsoft.Json@9.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Polly@8.2.0?package-id=pkg%3Anuget%2FPolly%408.2.0",
+      "type": "library",
+      "name": "Polly",
+      "version": "8.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Polly@8.2.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Polly.Core@8.2.0?package-id=pkg%3Anuget%2FPolly.Core%408.2.0",
+      "type": "library",
+      "name": "Polly.Core",
+      "version": "8.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Polly.Core@8.2.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "SampleApp@0.0.0",
+      "type": "library",
+      "name": "SampleApp",
+      "version": "0.0.0",
+      "properties": [
+        {
+          "name": "syft:package:type",
+          "value": "UnknownPackage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1",
+      "type": "library",
+      "name": "Serilog",
+      "version": "3.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog@3.1.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.AspNetCore@8.0.0?package-id=pkg%3Anuget%2FSerilog.AspNetCore%408.0.0",
+      "type": "library",
+      "name": "Serilog.AspNetCore",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.AspNetCore@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Extensions.Hosting@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Hosting%408.0.0",
+      "type": "library",
+      "name": "Serilog.Extensions.Hosting",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Extensions.Hosting@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Logging%408.0.0",
+      "type": "library",
+      "name": "Serilog.Extensions.Logging",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Extensions.Logging@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Formatting.Compact@2.0.0?package-id=pkg%3Anuget%2FSerilog.Formatting.Compact%402.0.0",
+      "type": "library",
+      "name": "Serilog.Formatting.Compact",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Formatting.Compact@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Settings.Configuration@8.0.0?package-id=pkg%3Anuget%2FSerilog.Settings.Configuration%408.0.0",
+      "type": "library",
+      "name": "Serilog.Settings.Configuration",
+      "version": "8.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Settings.Configuration@8.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Sinks.Console@5.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.Console%405.0.0",
+      "type": "library",
+      "name": "Serilog.Sinks.Console",
+      "version": "5.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Sinks.Console@5.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Sinks.Debug@2.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.Debug%402.0.0",
+      "type": "library",
+      "name": "Serilog.Sinks.Debug",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Sinks.Debug@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Serilog.Sinks.File@5.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.File%405.0.0",
+      "type": "library",
+      "name": "Serilog.Sinks.File",
+      "version": "5.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Serilog.Sinks.File@5.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore%406.4.0",
+      "type": "library",
+      "name": "Swashbuckle.AspNetCore",
+      "version": "6.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore@6.4.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.Swagger%406.4.0",
+      "type": "library",
+      "name": "Swashbuckle.AspNetCore.Swagger",
+      "version": "6.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.4.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.SwaggerGen%406.4.0",
+      "type": "library",
+      "name": "Swashbuckle.AspNetCore.SwaggerGen",
+      "version": "6.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.4.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.SwaggerUI%406.4.0",
+      "type": "library",
+      "name": "Swashbuckle.AspNetCore.SwaggerUI",
+      "version": "6.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.4.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1?package-id=pkg%3Anuget%2FSystem.Configuration.ConfigurationManager%406.0.1",
+      "type": "library",
+      "name": "System.Configuration.ConfigurationManager",
+      "version": "6.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Drawing.Common@6.0.0?package-id=pkg%3Anuget%2FSystem.Drawing.Common%406.0.0",
+      "type": "library",
+      "name": "System.Drawing.Common",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Drawing.Common@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.IO.Hashing@6.0.0?package-id=pkg%3Anuget%2FSystem.IO.Hashing%406.0.0",
+      "type": "library",
+      "name": "System.IO.Hashing",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.IO.Hashing@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.24.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%406.24.0",
+      "type": "library",
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "version": "6.24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.24.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@7.6.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%407.6.0",
+      "type": "library",
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "version": "7.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.IdentityModel.Tokens.Jwt@7.6.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Linq.Async@6.0.1?package-id=pkg%3Anuget%2FSystem.Linq.Async%406.0.1",
+      "type": "library",
+      "name": "System.Linq.Async",
+      "version": "6.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Linq.Async@6.0.1",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Memory.Data@1.0.2?package-id=pkg%3Anuget%2FSystem.Memory.Data%401.0.2",
+      "type": "library",
+      "name": "System.Memory.Data",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Memory.Data@1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Runtime.Caching@6.0.0?package-id=pkg%3Anuget%2FSystem.Runtime.Caching%406.0.0",
+      "type": "library",
+      "name": "System.Runtime.Caching",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Runtime.Caching@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Cryptography.ProtectedData%406.0.0",
+      "type": "library",
+      "name": "System.Security.Cryptography.ProtectedData",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Security.Permissions@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Permissions%406.0.0",
+      "type": "library",
+      "name": "System.Security.Permissions",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Security.Permissions@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Windows.Extensions@6.0.0?package-id=pkg%3Anuget%2FSystem.Windows.Extensions%406.0.0",
+      "type": "library",
+      "name": "System.Windows.Extensions",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/System.Windows.Extensions@6.0.0",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "SampleApp@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/AutoMapper@13.0.1?package-id=pkg%3Anuget%2FAutoMapper%4013.0.1",
+        "pkg:nuget/Azure.Storage.Blobs@12.19.1?package-id=pkg%3Anuget%2FAzure.Storage.Blobs%4012.19.1",
+        "pkg:nuget/MediatR@12.2.0?package-id=pkg%3Anuget%2FMediatR%4012.2.0",
+        "pkg:nuget/Microsoft.AspNetCore.Authentication.JwtBearer@8.0.6?package-id=pkg%3Anuget%2FMicrosoft.AspNetCore.Authentication.JwtBearer%408.0.6",
+        "pkg:nuget/Microsoft.AspNetCore.OpenApi@8.0.0-preview.4.23260.4?package-id=pkg%3Anuget%2FMicrosoft.AspNetCore.OpenApi%408.0.0-preview.4.23260.4",
+        "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.SqlServer%408.0.1",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.2?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.2",
+        "pkg:nuget/Newtonsoft.Json@9.0.1?package-id=pkg%3Anuget%2FNewtonsoft.Json%409.0.1",
+        "pkg:nuget/Polly@8.2.0?package-id=pkg%3Anuget%2FPolly%408.2.0",
+        "pkg:nuget/Serilog.AspNetCore@8.0.0?package-id=pkg%3Anuget%2FSerilog.AspNetCore%408.0.0",
+        "pkg:nuget/Swashbuckle.AspNetCore@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore%406.4.0",
+        "pkg:nuget/System.IdentityModel.Tokens.Jwt@7.6.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%407.6.0",
+        "pkg:nuget/System.Linq.Async@6.0.1?package-id=pkg%3Anuget%2FSystem.Linq.Async%406.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/AutoMapper@13.0.1?package-id=pkg%3Anuget%2FAutoMapper%4013.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.2?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Azure.Core@1.36.0?package-id=pkg%3Anuget%2FAzure.Core%401.36.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1?package-id=pkg%3Anuget%2FMicrosoft.Bcl.AsyncInterfaces%401.1.1",
+        "pkg:nuget/System.Memory.Data@1.0.2?package-id=pkg%3Anuget%2FSystem.Memory.Data%401.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Azure.Identity@1.7.0?package-id=pkg%3Anuget%2FAzure.Identity%401.7.0",
+      "dependsOn": [
+        "pkg:nuget/Azure.Core@1.36.0?package-id=pkg%3Anuget%2FAzure.Core%401.36.0",
+        "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@2.19.3?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client.Extensions.Msal%402.19.3",
+        "pkg:nuget/Microsoft.Identity.Client@4.47.2?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client%404.47.2",
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Cryptography.ProtectedData%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Azure.Storage.Blobs@12.19.1?package-id=pkg%3Anuget%2FAzure.Storage.Blobs%4012.19.1",
+      "dependsOn": [
+        "pkg:nuget/Azure.Storage.Common@12.18.1?package-id=pkg%3Anuget%2FAzure.Storage.Common%4012.18.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Azure.Storage.Common@12.18.1?package-id=pkg%3Anuget%2FAzure.Storage.Common%4012.18.1",
+      "dependsOn": [
+        "pkg:nuget/Azure.Core@1.36.0?package-id=pkg%3Anuget%2FAzure.Core%401.36.0",
+        "pkg:nuget/System.IO.Hashing@6.0.0?package-id=pkg%3Anuget%2FSystem.IO.Hashing%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/MediatR@12.2.0?package-id=pkg%3Anuget%2FMediatR%4012.2.0",
+      "dependsOn": [
+        "pkg:nuget/MediatR.Contracts@2.0.1?package-id=pkg%3Anuget%2FMediatR.Contracts%402.0.1",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.AspNetCore.Authentication.JwtBearer@8.0.6?package-id=pkg%3Anuget%2FMicrosoft.AspNetCore.Authentication.JwtBearer%408.0.6",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@7.1.2?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols.OpenIdConnect%407.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.AspNetCore.OpenApi@8.0.0-preview.4.23260.4?package-id=pkg%3Anuget%2FMicrosoft.AspNetCore.OpenApi%408.0.0-preview.4.23260.4",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.OpenApi@1.4.3?package-id=pkg%3Anuget%2FMicrosoft.OpenApi%401.4.3"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Data.SqlClient@5.1.1?package-id=pkg%3Anuget%2FMicrosoft.Data.SqlClient%405.1.1",
+      "dependsOn": [
+        "pkg:nuget/Azure.Identity@1.7.0?package-id=pkg%3Anuget%2FAzure.Identity%401.7.0",
+        "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.0?package-id=pkg%3Anuget%2FMicrosoft.Data.SqlClient.SNI.runtime%405.1.0",
+        "pkg:nuget/Microsoft.Identity.Client@4.47.2?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client%404.47.2",
+        "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%406.24.0",
+        "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols.OpenIdConnect%406.24.0",
+        "pkg:nuget/Microsoft.SqlServer.Server@1.0.0?package-id=pkg%3Anuget%2FMicrosoft.SqlServer.Server%401.0.0",
+        "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1?package-id=pkg%3Anuget%2FSystem.Configuration.ConfigurationManager%406.0.1",
+        "pkg:nuget/System.Runtime.Caching@6.0.0?package-id=pkg%3Anuget%2FSystem.Runtime.Caching%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Relational%408.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore%408.0.1",
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Abstractions%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.SqlServer%408.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Data.SqlClient@5.1.1?package-id=pkg%3Anuget%2FMicrosoft.Data.SqlClient%405.1.1",
+        "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Relational%408.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore%408.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Abstractions%408.0.1",
+        "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.1?package-id=pkg%3Anuget%2FMicrosoft.EntityFrameworkCore.Analyzers%408.0.1",
+        "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Memory%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Abstractions%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Memory%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Abstractions%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Binder%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Abstractions%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Diagnostics.Abstractions%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.FileProviders.Abstractions%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Hosting.Abstractions%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Diagnostics.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.FileProviders.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging.Abstractions%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging.Abstractions%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.2?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Options%408.0.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Primitives%408.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@2.19.3?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client.Extensions.Msal%402.19.3",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Identity.Client@4.47.2?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client%404.47.2",
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Cryptography.ProtectedData%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Identity.Client@4.47.2?package-id=pkg%3Anuget%2FMicrosoft.Identity.Client%404.47.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Abstractions%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%406.24.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%407.6.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%407.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Logging@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%406.24.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Abstractions%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Logging@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%407.6.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Abstractions@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Abstractions%407.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols.OpenIdConnect%406.24.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Protocols@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols%406.24.0",
+        "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.24.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@7.1.2?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols.OpenIdConnect%407.1.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Protocols@7.1.2?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols%407.1.2",
+        "pkg:nuget/System.IdentityModel.Tokens.Jwt@7.6.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%407.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols%406.24.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Logging@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%406.24.0",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@7.1.2?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Protocols%407.1.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Logging@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%407.6.0",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%407.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%406.24.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Logging@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%407.6.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Logging@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Logging%407.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Polly@8.2.0?package-id=pkg%3Anuget%2FPolly%408.2.0",
+      "dependsOn": [
+        "pkg:nuget/Polly.Core@8.2.0?package-id=pkg%3Anuget%2FPolly.Core%408.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.AspNetCore@8.0.0?package-id=pkg%3Anuget%2FSerilog.AspNetCore%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging%408.0.0",
+        "pkg:nuget/Serilog.Extensions.Hosting@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Hosting%408.0.0",
+        "pkg:nuget/Serilog.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Logging%408.0.0",
+        "pkg:nuget/Serilog.Formatting.Compact@2.0.0?package-id=pkg%3Anuget%2FSerilog.Formatting.Compact%402.0.0",
+        "pkg:nuget/Serilog.Settings.Configuration@8.0.0?package-id=pkg%3Anuget%2FSerilog.Settings.Configuration%408.0.0",
+        "pkg:nuget/Serilog.Sinks.Console@5.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.Console%405.0.0",
+        "pkg:nuget/Serilog.Sinks.Debug@2.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.Debug%402.0.0",
+        "pkg:nuget/Serilog.Sinks.File@5.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.File%405.0.0",
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Extensions.Hosting@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Hosting%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyInjection.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Hosting.Abstractions%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging.Abstractions%408.0.0",
+        "pkg:nuget/Serilog.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Logging%408.0.0",
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FSerilog.Extensions.Logging%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Logging%408.0.0",
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Formatting.Compact@2.0.0?package-id=pkg%3Anuget%2FSerilog.Formatting.Compact%402.0.0",
+      "dependsOn": [
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Settings.Configuration@8.0.0?package-id=pkg%3Anuget%2FSerilog.Settings.Configuration%408.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Configuration.Binder@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Configuration.Binder%408.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyModel@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.DependencyModel%408.0.0",
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Sinks.Console@5.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.Console%405.0.0",
+      "dependsOn": [
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Sinks.Debug@2.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.Debug%402.0.0",
+      "dependsOn": [
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Serilog.Sinks.File@5.0.0?package-id=pkg%3Anuget%2FSerilog.Sinks.File%405.0.0",
+      "dependsOn": [
+        "pkg:nuget/Serilog@3.1.1?package-id=pkg%3Anuget%2FSerilog%403.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.Swagger%406.4.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.OpenApi@1.4.3?package-id=pkg%3Anuget%2FMicrosoft.OpenApi%401.4.3"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.SwaggerGen%406.4.0",
+      "dependsOn": [
+        "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.Swagger%406.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Swashbuckle.AspNetCore@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore%406.4.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.ApiDescription.Server@6.0.5?package-id=pkg%3Anuget%2FMicrosoft.Extensions.ApiDescription.Server%406.0.5",
+        "pkg:nuget/Swashbuckle.AspNetCore.Swagger@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.Swagger%406.4.0",
+        "pkg:nuget/Swashbuckle.AspNetCore.SwaggerGen@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.SwaggerGen%406.4.0",
+        "pkg:nuget/Swashbuckle.AspNetCore.SwaggerUI@6.4.0?package-id=pkg%3Anuget%2FSwashbuckle.AspNetCore.SwaggerUI%406.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1?package-id=pkg%3Anuget%2FSystem.Configuration.ConfigurationManager%406.0.1",
+      "dependsOn": [
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Cryptography.ProtectedData%406.0.0",
+        "pkg:nuget/System.Security.Permissions@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Permissions%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Drawing.Common@6.0.0?package-id=pkg%3Anuget%2FSystem.Drawing.Common%406.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0?package-id=pkg%3Anuget%2FMicrosoft.Win32.SystemEvents%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.24.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%406.24.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%406.24.0",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%406.24.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@7.6.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%407.6.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%407.6.0",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@7.6.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.Tokens%407.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Linq.Async@6.0.1?package-id=pkg%3Anuget%2FSystem.Linq.Async%406.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@6.0.0?package-id=pkg%3Anuget%2FMicrosoft.Bcl.AsyncInterfaces%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.Caching@6.0.0?package-id=pkg%3Anuget%2FSystem.Runtime.Caching%406.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1?package-id=pkg%3Anuget%2FSystem.Configuration.ConfigurationManager%406.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Permissions@6.0.0?package-id=pkg%3Anuget%2FSystem.Security.Permissions%406.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Windows.Extensions@6.0.0?package-id=pkg%3Anuget%2FSystem.Windows.Extensions%406.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Windows.Extensions@6.0.0?package-id=pkg%3Anuget%2FSystem.Windows.Extensions%406.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Drawing.Common@6.0.0?package-id=pkg%3Anuget%2FSystem.Drawing.Common%406.0.0"
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "bom-ref": "urn:uuid:df340ccb-41e8-4192-bc93-57af7cd4f18f",
+      "id": "GHSA-5crp-9r3c-p9vr",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-5crp-9r3c-p9vr"
+      },
+      "references": [
+        {
+          "id": "GHSA-5crp-9r3c-p9vr",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-5crp-9r3c-p9vr"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.32908,
+          "method": "other"
+        }
+      ],
+      "description": "Improper Handling of Exceptional Conditions in Newtonsoft.Json",
+      "advisories": [
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json/issues/2457"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json/pull/2462"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json/commit/7e77bbe1beccceac4fc7b174b53abfefac278b66"
+        },
+        {
+          "url": "https://alephsecurity.com/2018/10/22/StackOverflowException/"
+        },
+        {
+          "url": "https://alephsecurity.com/vulns/aleph-2018004"
+        },
+        {
+          "url": "https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Newtonsoft.Json@9.0.1?package-id=pkg%3Anuget%2FNewtonsoft.Json%409.0.1",
+          "versions": [
+            {
+              "version": "9.0.1",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=13.0.1",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:ab0e79da-e770-4bde-b9a1-085c65c7df1e",
+      "id": "GHSA-qj66-m88j-hmgj",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-qj66-m88j-hmgj"
+      },
+      "references": [
+        {
+          "id": "GHSA-qj66-m88j-hmgj",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-qj66-m88j-hmgj"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "score": 8.8,
+          "severity": "high",
+          "method": "other",
+          "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:H/SC:N/SI:N/SA:N"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.02897,
+          "method": "other"
+        }
+      ],
+      "description": "Microsoft Security Advisory CVE-2024-43483 | .NET Denial of Service Vulnerability",
+      "advisories": [
+        {
+          "url": "https://github.com/dotnet/runtime/security/advisories/GHSA-qj66-m88j-hmgj"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43483"
+        },
+        {
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43483"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.0?package-id=pkg%3Anuget%2FMicrosoft.Extensions.Caching.Memory%408.0.0",
+          "versions": [
+            {
+              "version": "8.0.0",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=8.0.1",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:8d297286-a7eb-4ded-9dcb-ebed19c6fbd4",
+      "id": "GHSA-5mfx-4wcx-rv27",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-5mfx-4wcx-rv27"
+      },
+      "references": [
+        {
+          "id": "GHSA-5mfx-4wcx-rv27",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-5mfx-4wcx-rv27"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.02378,
+          "method": "other"
+        }
+      ],
+      "description": "Azure Identity SDK Remote Code Execution Vulnerability",
+      "advisories": [
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36414"
+        },
+        {
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36414"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity/CHANGELOG.md#1102-2023-10-10"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Azure.Identity@1.7.0?package-id=pkg%3Anuget%2FAzure.Identity%401.7.0",
+          "versions": [
+            {
+              "version": "1.7.0",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=1.10.2",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:0eb45b95-9f1b-4626-8109-5a2fa950eef4",
+      "id": "GHSA-59j7-ghrg-fj52",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-59j7-ghrg-fj52"
+      },
+      "references": [
+        {
+          "id": "GHSA-59j7-ghrg-fj52",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-59j7-ghrg-fj52"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 6.8,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.02892,
+          "method": "other"
+        }
+      ],
+      "description": "Microsoft ASP.NET Core project templates vulnerable to denial of service",
+      "advisories": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet/security/advisories/GHSA-8g9c-28fc-mcx2"
+        },
+        {
+          "url": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-59j7-ghrg-fj52"
+        },
+        {
+          "url": "https://github.com/dotnet/announcements/issues/290"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.24.0?package-id=pkg%3Anuget%2FMicrosoft.IdentityModel.JsonWebTokens%406.24.0",
+          "versions": [
+            {
+              "version": "6.24.0",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=6.34.0",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:b45ca27a-4b19-4365-ad31-5071cef0711e",
+      "id": "GHSA-59j7-ghrg-fj52",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-59j7-ghrg-fj52"
+      },
+      "references": [
+        {
+          "id": "GHSA-59j7-ghrg-fj52",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-59j7-ghrg-fj52"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 6.8,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.02892,
+          "method": "other"
+        }
+      ],
+      "description": "Microsoft ASP.NET Core project templates vulnerable to denial of service",
+      "advisories": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet/security/advisories/GHSA-8g9c-28fc-mcx2"
+        },
+        {
+          "url": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-59j7-ghrg-fj52"
+        },
+        {
+          "url": "https://github.com/dotnet/announcements/issues/290"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.24.0?package-id=pkg%3Anuget%2FSystem.IdentityModel.Tokens.Jwt%406.24.0",
+          "versions": [
+            {
+              "version": "6.24.0",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=6.34.0",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:a074d751-5246-4d76-97fe-5b2ebd3faa0e",
+      "id": "GHSA-98g6-xh36-x2p7",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-98g6-xh36-x2p7"
+      },
+      "references": [
+        {
+          "id": "GHSA-98g6-xh36-x2p7",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-98g6-xh36-x2p7"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 8.7,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.0118,
+          "method": "other"
+        }
+      ],
+      "description": "Microsoft.Data.SqlClient and System.Data.SqlClient vulnerable to SQL Data Provider Security Feature Bypass",
+      "advisories": [
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0056"
+        },
+        {
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056"
+        },
+        {
+          "url": "https://github.com/dotnet/announcements/issues/292"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Microsoft.Data.SqlClient@5.1.1?package-id=pkg%3Anuget%2FMicrosoft.Data.SqlClient%405.1.1",
+          "versions": [
+            {
+              "version": "5.1.1",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=5.1.3",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:1bbc5cfe-86e4-487b-a722-629ca5619e88",
+      "id": "GHSA-m5vv-6r4h-3vj9",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-m5vv-6r4h-3vj9"
+      },
+      "references": [
+        {
+          "id": "GHSA-m5vv-6r4h-3vj9",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-m5vv-6r4h-3vj9"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        },
+        {
+          "score": 6.8,
+          "severity": "medium",
+          "method": "other",
+          "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.0083,
+          "method": "other"
+        }
+      ],
+      "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+      "advisories": [
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35255"
+        },
+        {
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35255"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-go/commit/50774cd9709905523136fb05e8c85a50e8984499"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-js/commit/c6aa75d312ae463e744163cedfd8fc480cc8d492"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-python/commit/cb065acd7d0f957327dc4f02d1646d4e51a94178"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-java/commit/5bf020d6ea056de40e2738e3647a4e06f902c18d"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net/commit/9279a4f38bf69b457cfb9b354f210e0a540a5c53"
+        },
+        {
+          "url": "https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/issues/4806#issuecomment-2178960340"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Azure.Identity@1.7.0?package-id=pkg%3Anuget%2FAzure.Identity%401.7.0",
+          "versions": [
+            {
+              "version": "1.7.0",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=1.11.4",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:23d6970f-f16c-4e04-b463-84ae529127a9",
+      "id": "GHSA-rvv3-g6hj-g44x",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-rvv3-g6hj-g44x"
+      },
+      "references": [
+        {
+          "id": "GHSA-rvv3-g6hj-g44x",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-rvv3-g6hj-g44x"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.00552,
+          "method": "other"
+        }
+      ],
+      "description": "AutoMapper Vulnerable to Denial of Service (DoS) via Uncontrolled Recursion",
+      "advisories": [
+        {
+          "url": "https://github.com/LuckyPennySoftware/AutoMapper/security/advisories/GHSA-rvv3-g6hj-g44x"
+        },
+        {
+          "url": "https://github.com/LuckyPennySoftware/AutoMapper/commit/0afaf1e91648fca1a57512e94dd00a76ee016816"
+        },
+        {
+          "url": "https://github.com/LuckyPennySoftware/AutoMapper/releases/tag/v16.1.1"
+        },
+        {
+          "url": "https://github.com/LuckyPennySoftware/AutoMapper/releases/tag/v15.1.1"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32933"
+        },
+        {
+          "url": "https://github.com/LuckyPennySoftware/AutoMapper/discussions/4624"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/AutoMapper@13.0.1?package-id=pkg%3Anuget%2FAutoMapper%4013.0.1",
+          "versions": [
+            {
+              "version": "13.0.1",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=15.1.1",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "urn:uuid:f270d2a6-50e6-46f7-95b0-990828fb057b",
+      "id": "GHSA-wvxc-855f-jvrv",
+      "source": {
+        "name": "github-language-dotnet",
+        "url": "https://github.com/advisories/GHSA-wvxc-855f-jvrv"
+      },
+      "references": [
+        {
+          "id": "GHSA-wvxc-855f-jvrv",
+          "source": {
+            "name": "github-language-dotnet",
+            "url": "https://github.com/advisories/GHSA-wvxc-855f-jvrv"
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "FIRST",
+            "url": "https://www.first.org/epss/"
+          },
+          "score": 0.00717,
+          "method": "other"
+        }
+      ],
+      "description": "Azure Identity Library for .NET Information Disclosure Vulnerability",
+      "advisories": [
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29992"
+        },
+        {
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29992"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity/CHANGELOG.md#1110-2024-04-09"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:nuget/Azure.Identity@1.7.0?package-id=pkg%3Anuget%2FAzure.Identity%401.7.0",
+          "versions": [
+            {
+              "version": "1.7.0",
+              "status": "affected"
+            },
+            {
+              "range": "vers:nuget/>=1.11.0",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
