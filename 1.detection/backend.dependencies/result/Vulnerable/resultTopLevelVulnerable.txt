@@ -1,0 +1,4 @@
+Project `backend.dependencies` has the following vulnerable packages
+   [net10.0]: 
+   Top-level Package      Requested   Resolved   Severity   Advisory URL                                     
+   > Newtonsoft.Json      9.0.1       9.0.1      High       https://github.com/advisories/GHSA-5crp-9r3c-p9vr

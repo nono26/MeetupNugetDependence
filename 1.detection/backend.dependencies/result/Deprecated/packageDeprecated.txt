@@ -1,0 +1,10 @@
+Project `backend.dependencies` has the following deprecated packages
+   [net10.0]: 
+   Transitive Package                                     Resolved   Reason(s)      Alternative
+   > Azure.Identity                                       1.7.0      Other                     
+   > Microsoft.Data.SqlClient                             5.1.1      CriticalBugs              
+   > Microsoft.Identity.Client                            4.47.2     Legacy                    
+   > Microsoft.Identity.Client.Extensions.Msal            2.19.3     Legacy                    
+   > Microsoft.IdentityModel.Protocols                    6.24.0     Legacy                    
+   > Microsoft.IdentityModel.Protocols.OpenIdConnect      6.24.0     Legacy                    
+   > System.IdentityModel.Tokens.Jwt                      6.24.0     Legacy
