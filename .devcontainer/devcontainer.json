@@ -1,6 +1,7 @@
 {
     "name": ".NET in Codespaces",
     "image": "mcr.microsoft.com/dotnet/sdk:10.0",
+    "postCreateCommand": "dotnet tool update --global CycloneDX --version 6.3.1 || dotnet tool install --global CycloneDX --version 6.3.1; if ! command -v grype >/dev/null 2>&1; then curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh -o /tmp/install-grype.sh && sh /tmp/install-grype.sh -b \"$HOME/.dotnet/tools\" && rm /tmp/install-grype.sh; fi",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {
