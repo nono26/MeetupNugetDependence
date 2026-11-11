@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../backend.application.Abstraction.Serialization/backend.application.Abstraction.Serialization.csproj" />
     <ProjectReference Include="../backend.application/backend.application.csproj" />
+    <ProjectReference Include="../backend.Infrasctructure.SerializationLegacy/backend.Infrasctructure.SerializationLegacy.csproj" />
   </ItemGroup>
     <ItemGroup>
     <!--
