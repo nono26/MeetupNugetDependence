@@ -1,0 +1,9 @@
+﻿{
+  "Id": 2,
+  "Amount": 199.95,
+  "CustomerName": "Acme Corp",
+  "Note": "Leave at front desk",
+  "Status": "Confirmed",
+  "CreatedAt": "2024-01-15T09:30:00-05:00",
+  "Lines": []
+}
