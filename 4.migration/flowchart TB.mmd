@@ -1,0 +1,18 @@
+flowchart TB
+    subgraph domain["Domain (avant ACL)"]
+        RS["ReportService"]
+        IRS["IReportStorage<br/>"]
+
+    end
+    subgraph Infra["Infrastructure (avant ACL)"]
+        Repository
+    end
+
+    Repository["ReportRepository<br/>UploadAsync"]
+
+    SDK["SDK Azure Storage<br/>BlobContainerClient<br/>UploadBlobAsync, RequestFailedException..."]
+
+    RS -->|"storage.UploadAsync(path, content)"| IRS
+    IRS -->|"Implémentation par"| Repository
+    Repository -->|"référence directe<br/>types + exceptions du SDK"| SDK
+    RS -.->|"types du SDK deviennent<br/>'load-bearing'<br/>RequestFailedException "| SDK

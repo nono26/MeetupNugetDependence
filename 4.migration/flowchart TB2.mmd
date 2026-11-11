@@ -1,0 +1,24 @@
+flowchart TB
+    subgraph domain["Domain"]
+        RS["ReportService"]
+        DSE["DomainStorageException"]
+    end
+
+    subgraph Infra["Infrastructure"]
+        Repository
+        ADP["AzureBlobStorageAdapter<br/>(adapter)"]
+    end
+
+    subgraph InfraACL["Infrastructure (avec ACL)"]
+        ACL
+    end
+
+    ACL["ACL / Infr -- le seul endroit qui référence le SDK<br/>BlobContainerClient, UploadBlobAsync, RequestFailedException..."]
+
+    Repository["ReportRepository<br/>UploadReportAsync"]
+    SDK["SDK Azure Storage<br/>BlobContainerClient<br/>UploadBlobAsync, RequestFailedException..."]
+
+    RS -->|"Implémentation du repository"| Repository
+    ADP -->|"référence directe<br/>types + exceptions du SDK"| SDK
+    Repository -->|"tets"| ADP
+
