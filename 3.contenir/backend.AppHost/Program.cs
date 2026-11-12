@@ -1,4 +1,3 @@
-/*
 using backend.application;
 using backend.application.Abstraction.Serialization;
 
@@ -26,4 +25,3 @@ var serializer = app.Services.GetService<ISerializer>()!;
 var json = serializer.Serialize(order);
 Console.WriteLine(json);
 
-*/

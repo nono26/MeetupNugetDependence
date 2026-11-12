@@ -1,4 +1,5 @@
-﻿using backend.application;
+﻿/*
+using backend.application;
 using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,3 +19,5 @@ var order = new Order
  var json = JsonConvert.SerializeObject(order, Formatting.Indented);
 
 Console.WriteLine(json);
+
+*/

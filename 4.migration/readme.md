@@ -4,11 +4,11 @@
 
 ```mermaid
 flowchart TB
-    subgraph domain["Domain (avant ACL)"]
+    subgraph domain["Domain"]
         RS["ReportService"]
     end
 
-    subgraph Infra["Infrastructure (avant ACL)"]
+    subgraph Infra["Infrastructure"]
         Repository
     end
 
@@ -16,7 +16,7 @@ flowchart TB
 
     SDK["SDK Azure Storage<br/>BlobContainerClient<br/>UploadBlobAsync, RequestFailedException..."]
 
-    RS -->|"Implémentation du repository"| Repository
+    RS -->|"Appel du repository"| Repository
     Repository -->|"référence directe<br/>types + exceptions du SDK"| SDK
     RS -.->|"types du SDK deviennent<br/>'load-bearing'<br/>RequestFailedException"| SDK
 ```
@@ -26,7 +26,7 @@ flowchart TB
     flowchart TB
     subgraph domain["Domain — parle le langage du domaine"]
         RS["ReportService"]
-        IRS["IReportStorage<br/>(abstraction du seam)<br/>aucune référence au SDK"]
+        IRS["IReportStorage<br/>storage.UploadAsync(path, content)<br/>aucune référence au SDK"]
         DSE["DomainStorageException"]
     end
 
@@ -38,7 +38,7 @@ flowchart TB
         SDK["SDK Azure Storage<br/>BlobContainerClient"]
     end
 
-    RS -->|"storage.UploadAsync(path, content)"| IRS
+    RS --> IRS
     IRS -.->|"implémenté par"| ADP
     ADP -->|"BlobContainerClient.UploadAsync"| SDK
     SDK -.->|"RequestFailedException"| ADP
@@ -68,7 +68,7 @@ flowchart TB
         SDKA["SDK Amazon Storage<br/>AmazonBlobContainerClient"]
     end
 
-    RS -->|"storage.UploadAsync(path, content)"| IRS
+    RS -->IRS
     IRS -.->|"implémenté par"| ADP
     IRS -.->|"implémenté par"| SNI
     ADP -->|"BlobContainerClient.UploadAsync"| SDK
