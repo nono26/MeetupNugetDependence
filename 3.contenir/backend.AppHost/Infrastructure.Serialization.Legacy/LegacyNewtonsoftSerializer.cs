@@ -19,6 +19,7 @@ public class LegacyNewtonsoftSerializer : ISerializer
 {
     private readonly JsonSerializerSettings _settings = new()
     {
+        //Change from the default of NullValueHandling.Include to NullValueHandling.Ingore for testing purpose. This is exactly the kind of setting a dependency swap can silently change.
         NullValueHandling = NullValueHandling.Include,
         Formatting = Formatting.Indented,
         Converters = { new StringEnumConverter() }
