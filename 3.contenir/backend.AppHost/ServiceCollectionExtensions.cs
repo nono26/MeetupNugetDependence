@@ -1,10 +1,10 @@
 using backend.application.Abstraction.Serialization;
 using backend.Infrasctructure.SerializationLegacy;
-using Microsoft.Extensions.DependencyInjection;
+using backend.Infrasctructure.SerializationModern;
 
 
 /// <summary>
-/// STEP 3: The replacement is a single-line DI change.
+/// STEP 3 and 5: The replacement is a single-line DI change.
 ///
 /// Because all callers depend on ISerializer (not on a concrete class),
 /// swapping the implementation requires changing exactly one line.
@@ -12,6 +12,13 @@ using Microsoft.Extensions.DependencyInjection;
 /// </summary>
 public static class ServiceCollectionExtensions
 {
+    /// <summary>
+    /// Registers the REPLACEMENT System.Text.Json serializer.
+    /// Switch to this once contract tests pass and the team has signed off.
+    /// </summary>
+    public static IServiceCollection AddModernSerializer(this IServiceCollection services)
+        => services.AddSingleton<ISerializer, SystemTextJsonSerializer>();
+
     /// <summary>
     /// Registers the LEGACY Newtonsoft.Json serializer.
     /// This is the "wrap" registration — behavior is unchanged.

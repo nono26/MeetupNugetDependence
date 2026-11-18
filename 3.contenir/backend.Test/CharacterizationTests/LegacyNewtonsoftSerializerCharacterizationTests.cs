@@ -1,6 +1,6 @@
+using Xunit;
 using backend.application;
 using backend.Infrasctructure.SerializationLegacy;
-using Xunit;
 
 namespace backend.Test.CharacterizationTests
 {

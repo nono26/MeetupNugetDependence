@@ -16,9 +16,7 @@
 
   </ItemGroup>
 <ItemGroup>
-  <ProjectReference Include="../backend.application/backend.application.csproj" />
-  <ProjectReference Include="../backend.Infrasctructure.SerializationLegacy/backend.Infrasctructure.SerializationLegacy.csproj" />
-  <ProjectReference Include="../backend.Infrasctructure.SerializationModern/backend.Infrasctructure.SerializationModern.csproj" />
+  <ProjectReference Include="../backend.AppHost/backend.AppHost.csproj" />
 </ItemGroup>
 
 </Project>

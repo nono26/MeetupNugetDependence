@@ -12,50 +12,51 @@ flowchart TB
         Repository
     end
 
-    Repository["ReportRepository<br/>UploadReportAsync"]
+    Repository["ReportRepository"]
 
-    SDK["SDK Azure Storage<br/>BlobContainerClient<br/>UploadBlobAsync, RequestFailedException..."]
+    SDK["SDK Azure Storage<br/>RequestFailedException"]
 
-    RS -->|"Appel du repository"| Repository
-    Repository -->|"référence directe<br/>types + exceptions du SDK"| SDK
-    RS -.->|"types du SDK deviennent<br/>'load-bearing'<br/>RequestFailedException"| SDK
+    domain --- Infra
+    Infra ---|"référence directe<br/>types + exceptions du SDK"| SDK
+    domain ---|"RequestFailedException"| SDK
 ```
 ## La solution : la couche anti corruption
 ### Etape 1
 ```mermaid
-    flowchart TB
-    subgraph domain["Domain — parle le langage du domaine"]
-        RS["ReportService"]
-        IRS["IReportStorage<br/>storage.UploadAsync(path, content)<br/>aucune référence au SDK"]
-        DSE["DomainStorageException"]
-    end
-
-    subgraph acl["ACL / Infra — le seul endroit qui parle le langage du SDK"]
-        ADP["AzureBlobStorageAdapterLegacy<br/>(adapter)"]
+flowchart BT  
+    subgraph acl["ACL / Infra "]
+        ADP["AzureBlobStorageAdapterLegacy"]
     end
 
     subgraph ext["Externe"]
         SDK["SDK Azure Storage<br/>BlobContainerClient"]
-    end
+    end    
+    subgraph domain["Domain"]
+        RS["ReportService"]
+        IRS["IReportStorage<br/>aucune référence au SDK"]
+        DSE["DomainStorageException"]
+    end   
+    
+    RS --- IRS
+    ADP -.-> IRS
+    acl ---|"UploadAsync"| ext
+    ext ---|"RequestFailedException"| acl
+    ADP ---|"RequestFailedException traduite en"| DSE
 
-    RS --> IRS
-    IRS -.->|"implémenté par"| ADP
-    ADP -->|"BlobContainerClient.UploadAsync"| SDK
-    SDK -.->|"RequestFailedException"| ADP
-    ADP -.->|"traduite en"| DSE
+
 ```
 
 ### Etape 2
 ```mermaid
     flowchart TB
-    subgraph domain["Domain — parle le langage du domaine"]
+    subgraph domain["Domain"]
         RS["ReportService"]
-        IRS["IReportStorage<br/>(abstraction du seam)<br/>aucune référence au SDK"]
+        IRS["IReportStorage<br/>aucune référence au SDK"]
     end
 
-    subgraph acl["ACL / Infra — le seul endroit qui parle le langage du SDK"]
-        ADP["AzureBlobStorageAdapterLegacy<br/>(adapter)"]
-        SNI["AmazonStorageAdapter<br/>(adapter)"]
+    subgraph acl["ACL / Infra"]
+        ADP["AzureBlobStorageAdapterLegacy"]
+        SNI["AmazonStorageAdapter"]
     end
 
 
@@ -68,14 +69,14 @@ flowchart TB
         SDKA["SDK Amazon Storage<br/>AmazonBlobContainerClient"]
     end
 
-    RS -->IRS
-    IRS -.->|"implémenté par"| ADP
-    IRS -.->|"implémenté par"| SNI
-    ADP -->|"BlobContainerClient.UploadAsync"| SDK
-    SNI -->|"AmzonContainerClient.UploadAsync"| SDKA
+    RS ---IRS
+    IRS -.-ADP
+    IRS -.-SNI
+    ADP ---|"UploadAsync"| SDK
+    SNI ---|"UploadAsync"| SDKA
 
-    IStorageContractTest -->|"Run test"| ADP
-    IStorageContractTest -->|"Run test"| SNI
+    IStorageContractTest ---|"Run test"| ADP
+    IStorageContractTest ---|"Run test"| SNI
 
 ```
 
