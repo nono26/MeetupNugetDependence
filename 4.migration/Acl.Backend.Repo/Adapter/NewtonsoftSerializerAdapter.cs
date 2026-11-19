@@ -22,15 +22,6 @@ public class NewtonsoftSerializerAdapter : ISerializer
         {
             return JsonConvert.DeserializeObject<OrderDomain>(json, _settings)?? throw new JsonException("Deserialization returned null.");
         }
-        catch (JsonException ex)
-        {
-            throw new ExceptionDomain
-            {
-                Id = 0,
-                Code = 500,
-                Message = ex.Message
-            };
-        }
         catch (Exception ex)
         {
             throw new ExceptionDomain
