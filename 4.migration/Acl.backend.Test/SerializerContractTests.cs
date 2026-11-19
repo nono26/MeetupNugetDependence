@@ -1,18 +1,16 @@
-using backend.application;
-using backend.application.Abstraction.Serialization;
-using backend.Infrasctructure.SerializationLegacy;
-using backend.Infrasctructure.SerializationModern;
-using Xunit;
+﻿using Acl.Backend.Domain;
+using Acl.Backend.Repo.Adapter;
 
-namespace backend.Test
-{
+namespace Acl.backend.Test;
+
+
     public abstract class SerializerContractTests
     {
         /// The only implementation-specific seam. Returns a fresh instance every call so
     /// no test can depend on state left behind by another.
     protected abstract ISerializer CreateSut();
 
-    private static Order SampleOrder() => new()
+    private static OrderDomain SampleOrder() => new()
     {
         Id = 42,
         Amount = 1234.5678m,
@@ -88,7 +86,7 @@ namespace backend.Test
         var sut = CreateSut();
         var original = SampleOrder();
 
-        var result = sut.Deserialize<Order>(sut.Serialize(original));
+        var result = sut.Deserialize<OrderDomain>(sut.Serialize(original));
 
         Assert.Equal(original.Id, result.Id);
         Assert.Equal(original.Amount, result.Amount);
@@ -104,7 +102,7 @@ namespace backend.Test
         var sut = CreateSut();
         var original = SampleOrder();
 
-        var result = sut.Deserialize<Order>(sut.Serialize(original));
+        var result = sut.Deserialize<OrderDomain>(sut.Serialize(original));
 
         Assert.Equal(original.Lines.Count, result.Lines.Count);
         for (var i = 0; i < original.Lines.Count; i++)
@@ -133,7 +131,7 @@ namespace backend.Test
         original.CustomerName = null;
         original.Note = null;
 
-        var result = sut.Deserialize<Order>(sut.Serialize(original));
+        var result = sut.Deserialize<OrderDomain>(sut.Serialize(original));
 
         Assert.Null(result.CustomerName);
         Assert.Null(result.Note);
@@ -146,7 +144,7 @@ namespace backend.Test
         var original = SampleOrder();
         original.Lines = [];
 
-        var result = sut.Deserialize<Order>(sut.Serialize(original));
+        var result = sut.Deserialize<OrderDomain>(sut.Serialize(original));
 
         Assert.NotNull(result.Lines);
         Assert.Empty(result.Lines);
@@ -186,14 +184,14 @@ namespace backend.Test
     public void Deserialize_InvalidJson_Throws(string json)
     {
         var sut = CreateSut();
-        Assert.ThrowsAny<Exception>(() => sut.Deserialize<Order>(json));
+        Assert.ThrowsAny<ExceptionDomain>(() => sut.Deserialize<OrderDomain>(json));
     }
 
     [Fact]
     public void Deserialize_NullLiteral_Throws()
     {
         var sut = CreateSut();
-        Assert.ThrowsAny<Exception>(() => sut.Deserialize<Order>("null"));
+        Assert.ThrowsAny<ExceptionDomain>(() => sut.Deserialize<OrderDomain>("null"));
     }
 }
 
@@ -202,12 +200,11 @@ namespace backend.Test
 
 public class LegacyNewtonsoftSerializerContractTests : SerializerContractTests
 {
-    protected override ISerializer CreateSut() => new LegacyNewtonsoftSerializer();
+    protected override ISerializer CreateSut() => new NewtonsoftSerializerAdapter();
 }
 
 public class SystemTextJsonSerializerContractTests : SerializerContractTests
 {
-    protected override ISerializer CreateSut() => new SystemTextJsonSerializer();
+    protected override ISerializer CreateSut() => new SystemTextJsonSerializerAdapter();
 }
 
-}

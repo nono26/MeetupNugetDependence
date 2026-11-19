@@ -10,6 +10,7 @@ namespace Acl.Backend.Repo.Adapter;
         WriteIndented = true,
         DefaultIgnoreCondition = JsonIgnoreCondition.Never,
         PropertyNamingPolicy = null,
+        //Comment for testing purpose. This is exactly the kind of setting a dependency swap can silently change.
         Converters = { new JsonStringEnumConverter() }
     };
 
@@ -19,7 +20,7 @@ namespace Acl.Backend.Repo.Adapter;
     public OrderDomain Deserialize<OrderDomain>(string json){
         try
         {
-            return JsonSerializer.Deserialize<OrderDomain>(json, _options);
+            return JsonSerializer.Deserialize<OrderDomain>(json, _options)?? throw new JsonException("Deserialization returned null.");
         }
         catch (JsonException ex)
         {

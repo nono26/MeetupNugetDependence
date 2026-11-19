@@ -4,7 +4,7 @@ using Newtonsoft.Json.Converters;
 
 namespace Acl.Backend.Repo.Adapter;
 
-public class LegacyNewtonsoftSerializer : ISerializer
+public class NewtonsoftSerializerAdapter : ISerializer
 {
     private readonly JsonSerializerSettings _settings = new()
     {
@@ -20,7 +20,7 @@ public class LegacyNewtonsoftSerializer : ISerializer
     {
         try
         {
-            return JsonConvert.DeserializeObject<OrderDomain>(json, _settings);
+            return JsonConvert.DeserializeObject<OrderDomain>(json, _settings)?? throw new JsonException("Deserialization returned null.");
         }
         catch (JsonException ex)
         {
