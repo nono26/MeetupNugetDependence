@@ -11,7 +11,7 @@ namespace Acl.Backend.Repo.Adapter;
         DefaultIgnoreCondition = JsonIgnoreCondition.Never,
         PropertyNamingPolicy = null,
         //Comment for testing purpose. This is exactly the kind of setting a dependency swap can silently change.
-        //Converters = { new JsonStringEnumConverter() }
+        Converters = { new JsonStringEnumConverter() }
     };
 
     public string Serialize<OrderDomain>(OrderDomain value)
